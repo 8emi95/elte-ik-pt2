@@ -1,0 +1,49 @@
+1. Filmek nyilvántartása (Készítette: Bodó Alex) 
+
+Otthoni DVD, VHS filmjeinket szeretnénk nyilvántartani.
+
+adatbázisban tárolt adatok:
+- film:
+    - cím
+    - rendező
+    - főszereplő (lehet több főszereplő is, egy főszereplő több filmben is szerepelhet)
+    - gyártási év
+    - hossz (percben megadva)
+    - DVD/VHS borítóképe
+    - eredetiség
+    - hányszor adtuk kölcsön
+    - most kölcsön van-e adva
+- kölcsönzés:
+    - kölcsönző személy neve (egy személy több filmet is kölcsönözhet, egy filmet többször is kölcsönadhatunk)
+    - kölcsönadás dátuma
+    - visszaadás dátuma
+
+funkciók:
+- Új film felvitele
+    - nem engedi a felvitelt, ha a megadott cím és rendező párossal már rögzítettünk egy filmet
+- Filmek listázása
+    - filmek összes tulajdonsága megjelenik egy táblázatban
+    - táblázatban kijelölhető egy film -> képernyőn látható a kijelölt film borítóképe
+- Keresés (szűrés) a következő adatok alapján
+    - cím
+    - rendező
+    - főszereplő
+    - gyártási év
+    - hossz
+    - adathordozó típusa (DVD/VHS)
+    - az adathordozó eredeti vagy kalóz másolat
+    - kölcsön van-e adva
+- Film adatainak módosítása
+- Film törlése
+    - ha nincs kölcsönadva
+- Film kölcsönadása 
+- Kölcsönadott film visszavétele
+- Kölcsönzések listázása
+    - film címe, rendezője, a kölcsönző személy neve, a kölcsönadás dátuma, a visszaadás dátuma
+    - csak az aktuálisan kölcsönadott filmek
+    VAGY
+    - a régi kölcsönzések (már visszahozott filmek)
+- Kölcsönzések keresése (szűrés)
+    - kölcsönző személy neve alapján
+- Pánik gomb (ha jön a szoftverrendőrség)
+    - azonnal törölhető az összes kalózmásolattal kapcsolatos információ
